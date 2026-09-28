@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f0e5">
+  <meta name="description" content="Invitación a la celebración de los 50 años de Rosemary y Pablo.">
+  <title>Rosemary & Pablo · 50 años</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Gloock&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            crema: "#F7F0E5",
+            marfil: "#FCFAF6",
+            champagne: "#E9D8B8",
+            dorado: "#D4AF5A",
+            doradoClaro: "#F0D48A",
+            azul: "#263F54",
+            tinta: "#26343D"
+          },
+          fontFamily: {
+            gloock: ["Gloock", "serif"],
+            cormorant: ["Cormorant Garamond", "serif"],
+            montserrat: ["Montserrat", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+
+    <!-- =====================================================
+         PORTADA / INVITACIÓN
+    ====================================================== -->
+
+    <section class="photo-section hero-banner">
+      <div class="photo-frame">
+        <div class="photo-inner">
+
+          <div class="invitation-label">
+            <span></span>
+            <p>INVITACIÓN</p>
+            <span></span>
+          </div>
+
+          <div class="background-fifty">50</div>
+
+          <div class="photo-placeholder">
+            <span>ROSEMARY</span>
+            <i>&amp;</i>
+            <span>PABLO</span>
+
+            <small>
+              celebran sus 50 años
+            </small>
+          </div>
+
+          <div class="invitation-date">
+            SÁBADO · 24 DE OCTUBRE · 2026
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =====================================================
+         CONTADOR
+    ====================================================== -->
+
+    <section id="contador" class="top-countdown">
+
+      <div class="countdown-line">
+
+        <div class="count-item">
+          <span id="dias">00</span>
+          <small>DÍAS</small>
+        </div>
+
+        <div class="count-separator">·</div>
+
+        <div class="count-item">
+          <span id="horas">00</span>
+          <small>HORAS</small>
+        </div>
+
+        <div class="count-separator">·</div>
+
+        <div class="count-item">
+          <span id="minutos">00</span>
+          <small>MIN</small>
+        </div>
+
+        <div class="count-separator">·</div>
+
+        <div class="count-item">
+          <span id="segundos">00</span>
+          <small>SEG</small>
+        </div>
+
+      </div>
+
+      <p class="countdown-date">
+        24 · 10 · 2026
+      </p>
+
+    </section>
+
+
+    <!-- =====================================================
+         INTRODUCCIÓN
+    ====================================================== -->
+
+    <section id="bienvenida" class="intro-section">
+
+      <div class="section-container intro-content">
+
+        <div class="intro-photo">
+          <img src="assets/foto-portada.png" alt="Rosemary y Pablo">
+          <div class="intro-photo-frame"></div>
+          <span class="intro-photo-number">50</span>
+        </div>
+
+        <div class="intro-text">
+
+          <span class="section-kicker">
+            Una fecha para recordar
+          </span>
+
+          <div class="section-symbol">
+            <span></span>
+            <i>✦</i>
+            <span></span>
+          </div>
+
+          <h2>
+            50 años de historias,<br>
+            momentos y recuerdos.
+          </h2>
+
+          <p>
+            Rosemary y Pablo llegan a sus 50 años
+            y quieren celebrar esta etapa rodeados
+            de quienes hicieron y siguen haciendo
+            parte de su historia.
+          </p>
+
+          <div class="intro-signature">
+            <span>ROSEMARY</span>
+            <i>&amp;</i>
+            <span>PABLO</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CELEBRACIÓN
+    ====================================================== -->
+
+    <section class="details-section">
+
+      <div class="gold-ring ring-one"></div>
+      <div class="gold-ring ring-two"></div>
+
+      <div class="section-container">
+
+        <div class="section-heading">
+
+          <span class="section-kicker">
+            Guardá la fecha
+          </span>
+
+          <h2>
+            La celebración
+          </h2>
+
+          <div class="heading-line"></div>
+
+        </div>
+
+        <div class="details-grid">
+
+          <!-- FECHA -->
+          <article class="detail-card">
+
+            <div class="detail-icon detail-icon-calendar">
+              <span></span>
+            </div>
+
+            <span class="detail-label">
+              Fecha
+            </span>
+
+            <h3>
+              Sábado
+            </h3>
+
+            <p>
+              24 de octubre<br>
+              de 2026
+            </p>
+
+          </article>
+
+
+          <!-- HORARIO -->
+          <article class="detail-card">
+
+            <div class="detail-icon detail-icon-clock">
+              <span></span>
+            </div>
+
+            <span class="detail-label">
+              Horario
+            </span>
+
+            <h3>
+              21:00 hs
+            </h3>
+
+            <p>
+              Comienza<br>
+              la celebración
+            </p>
+
+          </article>
+
+
+          <!-- LUGAR -->
+          <article class="detail-card">
+
+            <div class="detail-icon detail-icon-location">
+              <span></span>
+            </div>
+
+            <span class="detail-label">
+              Lugar
+            </span>
+
+            <h3>
+              El Titán
+            </h3>
+
+            <p>
+              Riglos 5777<br>
+              González Catán
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         UBICACIÓN
+    ====================================================== -->
+
+    <section class="location-section">
+
+      <div class="location-decoration"></div>
+
+      <div class="section-container location-content">
+
+        <div class="location-grid">
+
+          <!-- INFORMACIÓN -->
+          <div class="location-info-content">
+
+            <span class="section-kicker">
+              Nos encontramos en
+            </span>
+
+            <h2>
+              El Titán
+            </h2>
+
+            <div class="heading-line location-line"></div>
+
+            <div class="location-info">
+
+              <span class="location-name">
+                SALÓN DE EVENTOS EL TITÁN
+              </span>
+
+              <span class="location-address">
+                Riglos 5777
+              </span>
+
+              <span class="location-city">
+                González Catán · Buenos Aires
+              </span>
+
+            </div>
+
+            <p>
+              El lugar donde vamos a compartir
+              esta noche tan especial.
+            </p>
+
+          </div>
+
+
+          <!-- MAPA -->
+          <div class="location-map">
+
+            <iframe
+              src="https://www.google.com/maps?q=Sal%C3%B3n%20de%20Eventos%20El%20Tit%C3%A1n%2C%20Riglos%205777%2C%20Gonz%C3%A1lez%20Cat%C3%A1n%2C%20Buenos%20Aires&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+              title="Ubicación del Salón de Eventos El Titán">
+            </iframe>
+
+          </div>
+
+
+          <!-- BOTÓN MAPA -->
+          <div class="location-button-wrapper">
+
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Sal%C3%B3n+de+Eventos+El+Tit%C3%A1n+Riglos+5777+Gonzalez+Catan+Buenos+Aires"
+              class="main-button location-button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver ubicación en Google Maps
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CONFIRMACIÓN
+    ====================================================== -->
+
+    <section id="confirmacion" class="confirmation-section">
+
+      <div class="confirmation-decoration confirmation-decoration-one"></div>
+      <div class="confirmation-decoration confirmation-decoration-two"></div>
+
+      <div class="section-container confirmation-content">
+
+        <div class="confirmation-header">
+
+          <div class="confirmation-ornament">
+            <span></span>
+            <i>✦</i>
+            <span></span>
+          </div>
+
+          <span class="section-kicker">
+            Queremos compartirlo con vos
+          </span>
+
+          <h2>
+            ¿Nos acompañás?
+          </h2>
+
+          <p>
+            Tu presencia hará que esta noche sea todavía más especial.
+            Confirmá tu asistencia y preparate para celebrar juntos.
+          </p>
+
+        </div>
+
+
+        <div class="confirmation-form">
+
+          <div class="confirmation-form-top">
+            <span>
+              Confirmación de asistencia
+            </span>
+
+            <i>
+              24 · 10 · 2026
+            </i>
+          </div>
+
+          <div class="form-divider"></div>
+
+
+          <div class="form-group">
+
+            <label for="nombre">
+              Nombre y apellido
+            </label>
+
+            <input
+              type="text"
+              id="nombre"
+              placeholder="Escribí tu nombre completo"
+              autocomplete="name"
+            >
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label for="personas">
+              ¿Cuántas personas asistirán?
+            </label>
+
+            <select id="personas">
+
+              <option value="1">
+                1 persona
+              </option>
+
+              <option value="2">
+                2 personas
+              </option>
+
+              <option value="3">
+                3 personas
+              </option>
+
+              <option value="4">
+                4 personas
+              </option>
+
+              <option value="5">
+                5 personas
+              </option>
+
+              <option value="6">
+                6 personas
+              </option>
+
+              <option value="7">
+                7 personas
+              </option>
+
+              <option value="8">
+                8 personas
+              </option>
+
+              <option value="9">
+                9 personas
+              </option>
+
+              <option value="10">
+                10 personas
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <button
+            type="button"
+            id="confirmarAsistencia"
+            class="main-button confirmation-button"
+          >
+            Confirmar asistencia
+          </button>
+
+
+          <p
+            id="form-message"
+            class="form-message"
+            aria-live="polite"
+          ></p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CIERRE
+    ====================================================== -->
+
+    <footer class="footer">
+
+      <div class="footer-content">
+
+        <span class="footer-small">
+          50 años
+        </span>
+
+        <h2>
+          ROSEMARY
+        </h2>
+
+        <div class="footer-and">
+          &amp;
+        </div>
+
+        <h3>
+          PABLO
+        </h3>
+
+        <div class="footer-line"></div>
+
+        <p>
+          Una vida para celebrar.
+        </p>
+
+        <span class="footer-date">
+          24 · 10 · 2026
+        </span>
+
+      </div>
+
+    </footer>
+
+  </main>
+
+
+  <!-- =====================================================
+       BOTÓN FLOTANTE DE CONFIRMACIÓN
+  ====================================================== -->
+
+  <a
+    href="#confirmacion"
+    class="floating-confirmation"
+    aria-label="Ir a confirmar asistencia"
+  >
+
+    <span class="floating-confirmation-icon">
+      ✓
+    </span>
+
+    <span class="floating-confirmation-text">
+      Confirmar asistencia
+    </span>
+
+  </a>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
