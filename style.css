@@ -66,7 +66,11 @@ img {
 
 .hero-banner {
   padding: 55px 20px 25px;
-  background: linear-gradient(180deg, #fcfaf6 0%, #f7f0e5 100%);
+  background: linear-gradient(
+    180deg,
+    #fcfaf6 0%,
+    #f7f0e5 100%
+  );
 }
 
 .hero-banner .photo-frame {
@@ -76,7 +80,12 @@ img {
   margin: 0 auto;
   padding: 12px;
   border: 1px solid rgba(196, 155, 67, 0.5);
-  background: linear-gradient(135deg, #fcfaf6, #eadbc3, #fcfaf6);
+  background: linear-gradient(
+    135deg,
+    #fcfaf6,
+    #eadbc3,
+    #fcfaf6
+  );
   box-shadow: 0 18px 55px rgba(38, 63, 84, 0.08);
 }
 
@@ -94,7 +103,12 @@ img {
       rgba(240, 212, 138, 0.32),
       transparent 55%
     ),
-    linear-gradient(135deg, #eee0c9, #fcfaf6, #e9d8b8);
+    linear-gradient(
+      135deg,
+      #eee0c9,
+      #fcfaf6,
+      #e9d8b8
+    );
 }
 
 .hero-banner .photo-inner::before,
@@ -113,7 +127,12 @@ img {
   inset: 34px;
 }
 
-.hero-banner .background-fifty {
+
+/* =====================================================
+   50 DE FONDO
+===================================================== */
+
+.background-fifty {
   position: absolute;
   z-index: 1;
   top: 50%;
@@ -130,9 +149,14 @@ img {
   white-space: nowrap;
 }
 
+
+/* =====================================================
+   ETIQUETA INVITACIÓN
+===================================================== */
+
 .invitation-label {
   position: absolute;
-  z-index: 4;
+  z-index: 5;
   top: 58px;
   left: 50%;
   display: flex;
@@ -157,25 +181,29 @@ img {
   color: #263f54;
 }
 
+
+/* =====================================================
+   NOMBRES
+===================================================== */
+
 .hero-banner .photo-placeholder {
   position: relative;
-  z-index: 3;
+  z-index: 4;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto;
   justify-items: center;
   align-items: center;
-  width: 90%;
-  gap: 0;
+  width: 92%;
   text-align: center;
 }
 
 .hero-banner .photo-placeholder span {
   font-family: "Gloock", serif;
-  font-size: clamp(3.8rem, 8vw, 7.5rem);
+  font-size: clamp(4rem, 8vw, 7.5rem);
   font-weight: 400;
-  line-height: 0.85;
-  letter-spacing: -0.04em;
+  line-height: 0.82;
+  letter-spacing: -0.045em;
   color: #d4af5a;
   text-shadow:
     0 1px 0 #f8e5b5,
@@ -184,16 +212,16 @@ img {
 
 .hero-banner .photo-placeholder i {
   font-family: "Cormorant Garamond", serif;
-  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-size: clamp(3.2rem, 7vw, 5.5rem);
   font-style: italic;
   font-weight: 300;
-  line-height: 0.8;
+  line-height: 0.75;
   color: #263f54;
-  margin: 5px 0 2px;
+  margin: 8px 0 4px;
 }
 
 .hero-banner .photo-placeholder small {
-  margin-top: 22px;
+  margin-top: 25px;
   font-family: "Montserrat", sans-serif;
   font-size: 9px;
   font-weight: 500;
@@ -202,9 +230,14 @@ img {
   color: #263f54;
 }
 
+
+/* =====================================================
+   FECHA PORTADA
+===================================================== */
+
 .invitation-date {
   position: absolute;
-  z-index: 4;
+  z-index: 5;
   bottom: 58px;
   left: 50%;
   width: max-content;
@@ -222,7 +255,7 @@ img {
 ===================================================== */
 
 .top-countdown {
-  padding: 28px 20px 34px;
+  padding: 30px 20px 35px;
   text-align: center;
   background: #fcfaf6;
   border-bottom: 1px solid rgba(196, 155, 67, 0.14);
@@ -243,7 +276,7 @@ img {
 
 .count-item span {
   font-family: "Gloock", serif;
-  font-size: clamp(1.8rem, 4vw, 2.7rem);
+  font-size: clamp(2rem, 4vw, 2.9rem);
   font-weight: 400;
   line-height: 1;
   color: #c49b43;
@@ -290,7 +323,7 @@ img {
 .section-heading h2 {
   margin: 10px 0 0;
   font-family: "Gloock", serif;
-  font-size: clamp(2.6rem, 9vw, 5rem);
+  font-size: clamp(2.8rem, 9vw, 5rem);
   font-weight: 400;
   line-height: 1;
   color: #263f54;
@@ -332,6 +365,11 @@ img {
   color: #c49b43;
 }
 
+
+/* =====================================================
+   ICONO CALENDARIO
+===================================================== */
+
 .detail-icon-calendar span {
   position: relative;
   width: 25px;
@@ -362,6 +400,11 @@ img {
   background: #c49b43;
   box-shadow: 10px 0 0 #c49b43;
 }
+
+
+/* =====================================================
+   ICONO RELOJ
+===================================================== */
 
 .detail-icon-clock span {
   position: relative;
@@ -394,6 +437,11 @@ img {
   transform-origin: left center;
 }
 
+
+/* =====================================================
+   ICONO UBICACIÓN
+===================================================== */
+
 .detail-icon-location span {
   position: relative;
   width: 22px;
@@ -414,6 +462,11 @@ img {
   border: 1.5px solid #c49b43;
   border-radius: 50%;
 }
+
+
+/* =====================================================
+   DATOS
+===================================================== */
 
 .detail-label {
   display: block;
@@ -490,8 +543,12 @@ img {
 
 .location-button {
   align-self: center;
-  margin-top: 0;
 }
+
+
+/* =====================================================
+   DETALLES DECORATIVOS
+===================================================== */
 
 .gold-ring {
   position: absolute;
@@ -592,11 +649,19 @@ img {
 .confirmation-ornament span {
   width: 42px;
   height: 1px;
-  background: linear-gradient(90deg, transparent, #d4af5a);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #d4af5a
+  );
 }
 
 .confirmation-ornament span:last-child {
-  background: linear-gradient(90deg, #d4af5a, transparent);
+  background: linear-gradient(
+    90deg,
+    #d4af5a,
+    transparent
+  );
 }
 
 .confirmation-ornament i {
@@ -624,6 +689,11 @@ img {
   line-height: 1.5;
   color: rgba(38, 63, 84, 0.68);
 }
+
+
+/* =====================================================
+   FORMULARIO
+===================================================== */
 
 .confirmation-form {
   position: relative;
@@ -760,6 +830,11 @@ img {
   color: #263f54;
 }
 
+
+/* =====================================================
+   DECORACIÓN CONFIRMACIÓN
+===================================================== */
+
 .confirmation-decoration {
   position: absolute;
   border: 1px solid rgba(196, 155, 67, 0.1);
@@ -858,6 +933,7 @@ img {
 ===================================================== */
 
 @media (max-width: 800px) {
+
   .details-grid {
     grid-template-columns: 1fr;
     max-width: 500px;
@@ -869,9 +945,6 @@ img {
     height: 300px;
   }
 
-  .location-button {
-    align-self: center;
-  }
 }
 
 
@@ -880,44 +953,52 @@ img {
 ===================================================== */
 
 @media (max-width: 600px) {
+
   .section-container {
     width: min(calc(100% - 30px), 1080px);
   }
 
+
   /* PORTADA */
 
   .hero-banner {
-    padding: 25px 12px 18px;
+    padding: 18px 10px 14px;
   }
 
   .hero-banner .photo-frame {
-    min-height: 440px;
-    padding: 8px;
+    min-height: 470px;
+    padding: 7px;
   }
 
   .hero-banner .photo-inner {
-    min-height: 424px;
+    min-height: 456px;
   }
 
   .hero-banner .photo-inner::before {
-    inset: 15px;
+    inset: 14px;
   }
 
   .hero-banner .photo-inner::after {
-    inset: 23px;
+    inset: 22px;
   }
 
-  .hero-banner .background-fifty {
-    font-size: 12.5rem;
+
+  /* 50 */
+
+  .background-fifty {
+    font-size: 12rem;
   }
+
+
+  /* INVITACIÓN */
 
   .invitation-label {
-    top: 35px;
+    top: 34px;
     gap: 8px;
   }
 
   .invitation-label span {
-    width: 22px;
+    width: 23px;
   }
 
   .invitation-label p {
@@ -925,34 +1006,36 @@ img {
     letter-spacing: 0.27em;
   }
 
+
+  /* NOMBRES */
+
   .hero-banner .photo-placeholder {
-    width: 100%;
+    width: 98%;
   }
 
-  /*
-     NOMBRES MÁS GRANDES EN MOBILE
-  */
-
   .hero-banner .photo-placeholder span {
-    font-size: clamp(3.2rem, 14vw, 4.6rem);
-    line-height: 0.86;
+    font-size: clamp(3.25rem, 16vw, 5rem);
+    line-height: 0.82;
     letter-spacing: -0.045em;
   }
 
   .hero-banner .photo-placeholder i {
-    font-size: 3rem;
-    margin: 5px 0 2px;
+    font-size: 3.15rem;
+    margin: 5px 0 3px;
   }
 
   .hero-banner .photo-placeholder small {
-    margin-top: 17px;
+    margin-top: 18px;
     font-size: 6px;
     letter-spacing: 0.2em;
   }
 
+
+  /* FECHA */
+
   .invitation-date {
-    bottom: 35px;
-    width: calc(100% - 40px);
+    bottom: 32px;
+    width: calc(100% - 45px);
     font-size: 5.5px;
     letter-spacing: 0.16em;
     line-height: 1.5;
@@ -963,38 +1046,33 @@ img {
   /* CONTADOR */
 
   .top-countdown {
-    padding: 24px 8px 29px;
+    padding: 25px 8px 29px;
   }
 
   .countdown-line {
-    gap: 10px;
+    gap: 9px;
   }
 
   .count-item {
-    gap: 5px;
+    gap: 4px;
   }
 
-  /*
-     CONTADOR MÁS GRANDE EN MOBILE
-  */
-
   .count-item span {
-    font-size: 1.7rem;
+    font-size: 1.85rem;
   }
 
   .count-item small {
-    font-size: 6px;
-    letter-spacing: 0.11em;
+    font-size: 5.8px;
+    letter-spacing: 0.1em;
   }
 
   .count-separator {
-    font-size: 21px;
+    font-size: 20px;
   }
 
   .countdown-date {
-    margin-top: 14px;
-    font-size: 6.5px;
-    letter-spacing: 0.25em;
+    margin-top: 12px;
+    font-size: 6px;
   }
 
 
@@ -1005,7 +1083,7 @@ img {
   }
 
   .section-heading h2 {
-    font-size: 2.8rem;
+    font-size: 2.85rem;
   }
 
   .details-grid {
@@ -1148,6 +1226,9 @@ img {
     letter-spacing: 0.13em;
   }
 
+
+  /* DECORACIONES */
+
   .confirmation-decoration-one {
     width: 300px;
     height: 300px;
@@ -1159,6 +1240,7 @@ img {
     height: 240px;
     right: -190px;
   }
+
 }
 
 
@@ -1167,46 +1249,40 @@ img {
 ===================================================== */
 
 @media (max-width: 360px) {
+
   .hero-banner .photo-frame {
-    min-height: 390px;
+    min-height: 425px;
   }
 
   .hero-banner .photo-inner {
-    min-height: 374px;
+    min-height: 411px;
   }
 
-  .hero-banner .background-fifty {
+  .background-fifty {
     font-size: 10.5rem;
   }
 
-  /*
-     NOMBRES EN CELULARES MUY PEQUEÑOS
-  */
-
   .hero-banner .photo-placeholder span {
-    font-size: 2.65rem;
-    line-height: 0.87;
+    font-size: 3rem;
   }
 
   .hero-banner .photo-placeholder i {
-    font-size: 2.45rem;
+    font-size: 2.7rem;
   }
 
   .hero-banner .photo-placeholder small {
-    margin-top: 14px;
     font-size: 5.5px;
+  }
+
+  .invitation-date {
+    font-size: 5px;
   }
 
 
   /* CONTADOR */
 
-  .top-countdown {
-    padding-left: 6px;
-    padding-right: 6px;
-  }
-
   .countdown-line {
-    gap: 6px;
+    gap: 5px;
   }
 
   .count-item {
@@ -1214,7 +1290,7 @@ img {
   }
 
   .count-item span {
-    font-size: 1.45rem;
+    font-size: 1.55rem;
   }
 
   .count-item small {
@@ -1233,7 +1309,7 @@ img {
   }
 
   .section-heading h2 {
-    font-size: 2.45rem;
+    font-size: 2.5rem;
   }
 
   .location-map {
@@ -1284,7 +1360,7 @@ img {
   }
 
 
-  /* BOTÓN FLOTANTE */
+  /* BOTÓN */
 
   .floating-confirmation {
     right: 10px;
@@ -1294,6 +1370,7 @@ img {
   .floating-confirmation-text {
     font-size: 6px;
   }
+
 }
 
 
@@ -1302,6 +1379,7 @@ img {
 ===================================================== */
 
 @media (prefers-reduced-motion: reduce) {
+
   html {
     scroll-behavior: auto;
   }
@@ -1313,4 +1391,5 @@ img {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+
 }

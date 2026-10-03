@@ -128,7 +128,7 @@ function confirmarAsistencia() {
 
 
   const mensaje =
-`Hola Rosemary y Pablo 
+`Hola
 
 Soy ${nombre}.
 
